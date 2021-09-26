@@ -1,0 +1,15 @@
+#Write a Python program to reverse a string.
+
+def reverse(s):
+  str = ""
+  for i in s:
+    str = i + str
+  return str
+  
+s = " Ashish is a wonderful person"
+  
+print ("Original String : ",end="")
+print (s)
+  
+print ("Reversed string : ",end="")
+print (reverse(s))
