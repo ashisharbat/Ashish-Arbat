@@ -1,0 +1,7 @@
+#Write a Python program to triple all numbers of a given list of integers. Use Python map.
+
+nums = (1, 2, 3, 4, 5, 6, 7,10,222,333) 
+print("list: ", nums)
+result = map(lambda x: x + x + x, nums) 
+print("Tripleof list:")
+print(list(result))
